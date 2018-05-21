@@ -1,0 +1,43 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/mingfeng/project/msiteapi/api/" . "routes/")
+ ("/home/mingfeng/project/msiteapi/" . "api/")
+ ("/home/mingfeng/project/" . "msiteapi/")
+ ("/home/mingfeng/" . "project/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/mingfeng/project/msiteapi/api/routes/"
+ "/home/mingfeng/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "web.php"
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/mingfeng/project/msiteapi/api/routes/" (22977 12386 826995 243000) "web.php" "../" "./")
+
+ ("/home/mingfeng/project/msiteapi/api/" (22977 12386 826995 243000) "phpunit.xml" "domain/" "bootstrap/" "env~" "composer.json" ".gitignore" "composer.lock" "readme.md" "public/" "../" ".env.sit" "resources/" "app/" "env" ".env.uat" "tests/" "artisan" "storage/" "./" "vendor/" ".env.prod" "config/" "routes/" "database/")
+
+ ("/home/mingfeng/project/msiteapi/" (22977 14114 952168 985000) ".gitignore" ".git/" "../" "build.sh" "api/" "README.md" ".ac-php-conf.json" "./" ".idea/")
+
+ ("/home/mingfeng/project/" (22969 15296 580608 252000) "chrome-extension-iTools/" "www/" "sell-system/" "drainage-consumer/" "ui-placeholder/" "xapi/" "ShellTools/" "DrainageApi/" "electronic-wechat/" "git-emoji-template/" "ToolsetApp/" "../" "msiteapi/" "TAV/" "toolset/" "SpringApp/" "onedrive/" "ubuntu-indicator-emacs-task/" "example-spring/" "ffan-new-media/" "newh5/" "danyuan/" "./" "OperationTools/" "jupyter-scripts/" "xapi_zhaoshang/" "zhaoshang/" "ffan_webapp/" "ai-tool/" "java-spring-training/" "DivingEventHandler/" "web/" "smart-develop-tools/")
+
+ ("/home/mingfeng/" (22977 14114 932168 540000) ".mozilla/" ".config/" "OneDrive/" "Desktop/" "project/" "kafka_2.11-0.11.0.0/" ".gconf/" ".processing/" ".ICEauthority" ".emacs.d/" ".WebStorm2017.2/" ".node-gyp/" "IdeaProjects/" ".xinputrc" ".bashrc" "Videos/" ".android/" ".gitconfig" ".putty/" ".java/" "sketchbook/" ".oracle_jre_usage/" ".xsession-errors" "Pictures/" "jetbrains/" ".jupyter/" ".IntelliJIdea2017.2/" ".dbus/" ".local/" "Downloads/" ".sudo_as_admin_successful" ".Xauthority" ".selected_editor" "Music/" ".presage/" ".ipynb_checkpoints/" "myappindicator_v1.py" ".electron/" ".ew.json" "dlang/" ".m2/" "Documents/" ".bash_logout" "phpctags" ".ac-php/" "Public/" ".xsession-errors.old" "Templates/" ".python_history" "processing-3.3.6/" ".ecryptfs/" ".nano/" ".PhpStorm2017.2/" ".npm/" "geckodriver.log" ".gnome/" "python_selenium.ipynb" "examples.desktop" ".mysql/" ".compiz/" ".pki/" "sample_icon.svg" ".profile" ".Private/" ".bash_history" ".ipython/" ".ssh/" ".mysql_history" ".cache/" ".v8flags.5.1.281.103.c9cb2db7ed1068c46f2b120915f724c5.json" ".gnupg/" "test.sh" "../" "./")
+
+ ("/home/mingfeng/.emacs.d/" (22977 15084 639046 808000) "snippets/" "auto-save-list/" "elpa/" "ac-comphist.dat" ".gitignore" "ido.last~" ".git/" "../" "LICENSE" "package/" "README.md" "ido.last" "./" "init.el" "config/" "load-directory.el")
+
+ ("/home/" (22898 56003 331968 153000) "../" ".ecryptfs/" "mingfeng/" "./")
+
+ ("/home/mingfeng/OneDrive/" (22969 15253 607471 872000) "voteSystem-thinking.org" "cangyan-thinking.org" "cangyan-thinking-7.org~" "weekReport-thinking-2-thinking-thinking-thinking-thinking-thinking-thinking-thinking.docx" "weekReport-thinking-2-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking.docx" "40_shishuo/" "cangyan-thinking-5.org" "weekReport-thinking-2-thinking.docx" "weekReport-thinking-2-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking.docx" "11_wanda/" "92_config/" "10_angejia/" "ddd-thinking.org" "weekReport-thinking.docx" "msite.org~" "ddd.org~" "msite-thinking-2.org~" "cangyan.html~" "cangyan-thinking-3.org" "cangyan-thinking-2.org" "weekReport-thinking-2-thinking-thinking-thinking-thinking-thinking-thinking.docx" "cangyan-thinking-4.org~" "voteSystem-thinking.org~" "cangyan-thinking-6.org" "msite-thinking.org" "weekReport-thinking-2-thinking-thinking-thinking-thinking-thinking.docx" "ddd-thinking-2.org~" "msite-thinking.org~" "93_info/" "weekReport-thinking-2-thinking-thinking-thinking-thinking.docx" "文档/" "99_memo/" "msite-thinking-3.org" "ddd-thinking-2.org" "msite-thinking-2.org" "cangyan-thinking-6.org~" "weekReport-thinking-2.docx" "ddd-thinking.org~" "voteSystem.org~" "#msite.org#" "cangyan-thinking-8.org~" "cangyan-thinking-4.org" "cangyan.html" "cangyan-thinking-3.org~" "01_book/" "weekReport-thinking-2-thinking-thinking-thinking.docx" "voteSystem.org" "90_software/" "cangyan-thinking-7.org" "图片/" "30_huuinn/" "电子邮件附件/" "ddd.org" "80_game/" "cangyan-thinking.org~" "weekReport-thinking-2-thinking-thinking.docx" "公开/" "cangyan.org~" "weekReport-thinking-2-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking.docx" "msite-thinking-3.org~" "msite.org_archive~" "weekReport-thinking-2-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking.docx" "cangyan-thinking-9.org" "weekReport-thinking-2-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking.docx" "cangyan-thinking-8.org" "weekReport-thinking-2-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking-thinking.docx" "cangyan-thinking-5.org~" "msite.org_archive" "20_bems/" "weekReport.docx" "msite.org" "cangyan-thinking-2.org~" "91_backup/" "ddd-thinking-3.org~" "cangyan.org" "02_video/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
