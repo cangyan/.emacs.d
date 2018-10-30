@@ -44,7 +44,9 @@
     :ensure t
     )
   (use-package go-direx
-    :ensure t)
+    :ensure t
+    :config
+    (define-key go-mode-map (kbd "C-c C-t l") 'go-direx-pop-to-buffer))
   )
 (unless (package-install 'popwin)
   (package-refresh-contents)
