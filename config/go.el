@@ -43,6 +43,18 @@
   (use-package go-rename
     :ensure t
     )
+  (use-package go-direx
+    :ensure t)
   )
+(unless (package-install 'popwin)
+  (package-refresh-contents)
+  (package-install 'popwin))
+
+(require 'popwin)
+(setq display-buffer-function 'popwin:display-buffer)
+
+(push '("^\*go-direx:" :regexp t :position left :width 0.2 :dedicated t :stick t)
+      popwin:special-display-config)
+
 
 (provide 'go)
