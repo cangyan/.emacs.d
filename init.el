@@ -18,6 +18,8 @@
 
 (global-hl-line-mode)
 
+(setq-default indent-tabs-mode nil)
+
 (winner-mode t)
 
 (windmove-default-keybindings)
