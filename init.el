@@ -238,6 +238,7 @@
 
 (setq require-final-newline t)
 
+(setq mouse-1-click-follows-link nil)
 
 (use-package yasnippet
   :ensure t
