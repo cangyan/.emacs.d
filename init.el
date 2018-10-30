@@ -42,6 +42,9 @@
 
 (require 'use-package)
 
+(use-package diminish :ensure t)
+(use-package bind-key :ensure t)
+
 (unless (package-installed-p 'exec-path-from-shell)
   (package-refresh-contents)
   (package-install 'exec-path-from-shell)
@@ -232,3 +235,13 @@
 (setq org-startup-with-inline-images t)
 
 (setq require-final-newline t)
+
+
+(use-package yasnippet
+  :ensure t
+  :init
+  (add-hook 'prog-mode-hook #'yas-minor-mode)
+  :config
+  (yas-reload-all)
+  (use-package yasnippet-snippets
+    :ensure t))

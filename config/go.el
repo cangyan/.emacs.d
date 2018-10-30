@@ -38,7 +38,7 @@
     )
   (use-package go-guru
     :ensure t
-    :hook (go-mode .  go-guru-hl-identifier-mode)
+    :hook (go-mode . go-guru-hl-identifier-mode)
     )
   (use-package go-rename
     :ensure t
