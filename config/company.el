@@ -29,3 +29,4 @@
 (advice-add 'company-complete-common :after (lambda ()
                                 (when (equal my-company-point (point))
                                                   (yas-expand))))
+
