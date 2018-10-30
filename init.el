@@ -35,6 +35,20 @@
 	     t)
 
 (package-initialize)
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package)
+  )
+
+(require 'use-package)
+
+(unless (package-installed-p 'exec-path-from-shell)
+  (package-refresh-contents)
+  (package-install 'exec-path-from-shell)
+  )
+
+(require 'exec-path-from-shell)
+
 (load "~/.emacs.d/load-directory")
 (load-directory "~/.emacs.d/package")
 (load-directory "~/.emacs.d/config")
