@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/project/qutoutiao/jipai-php/" "~/project/api-qrcode/" "~/project/chrome-extension-iTools/" "~/project/image-detect/" "~/project/msiteapi/" "~/project/xapi/" "~/project/TAV/")
+("~/.emacs.d/" "~/project/qutoutiao/jipai-php/")
