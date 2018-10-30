@@ -14,6 +14,7 @@
 ;; go get golang.org/x/lint/golint
 ;; go get github.com/nsf/gocode
 ;; go get golang.org/x/tools/cmd/gorename
+;; go get github.com/jstemmer/gotags
 
 ;; gocode set autobuild true
 
