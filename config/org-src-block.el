@@ -7,7 +7,7 @@
    (js . t)
    (python . t)
    (R . t)
-   (sh . t)
+   (shell . t)
    (sql . t)
    (sqlite . t)
    ))

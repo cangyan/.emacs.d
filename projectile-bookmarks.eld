@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/project/qutoutiao/jipai-php/")
+("~/.emacs.d/")
