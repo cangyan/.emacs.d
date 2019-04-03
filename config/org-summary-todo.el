@@ -2,7 +2,7 @@
 	'((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d)")
 	(sequence "REPORT(r)" "BUG(b)" "KNOWNCAUSE(k)" "|" "FIXED(f)")
 	(sequence "|" "CANCELED(c)")
-	(type "吴雄杰(1)" "刘英伟(2)" "刘峰(3)" "孟凤真(4)" "王克园(5)" "苏小飞(6)" "王鸿钰(7)" "|" )))
+	(type "吴雄杰(1)" "邓佳明(2)" "刘峰(3)" "张建(4)" "张晓文(5)" "曹壹(6)" "罗海(7)" "|" )))
 (defun org-summary-todo (n-done n-not-done)
 	"Switch entry to DONE when all subentries are done, to TODO otherwise."
 	(let (org-log-done org-log-states) ; turn off logging
