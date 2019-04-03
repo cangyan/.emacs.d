@@ -4,7 +4,7 @@
   )
 (elpy-enable)
 (setq elpy-rpc-backend "jedi")
-(setq python-shell-interpreter "/usr/local/bin/ipython3")
+(setq python-shell-interpreter "/usr/bin/ipython2")
 
 
 ;; active flycheck instead of flymake
