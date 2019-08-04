@@ -1,5 +1,9 @@
 (setq frame-title-format "emacs")
 
+(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
+
+(setq custom-safe-themes t)
+
 (menu-bar-mode -1)
 
 (tool-bar-mode -1)
@@ -256,7 +260,7 @@
  '(custom-enabled-themes (quote (solarized-dark)))
  '(custom-safe-themes
    (quote
-    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+    ("0598c6a29e13e7112cfbc2f523e31927ab7dce56ebb2016b567e1eff6dc1fd4f" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
  '(package-selected-packages
    (quote
     (yasnippet-snippets shell-pop ace-window golden-ratio hiwin dumb-jump super-save expand-region neotree multiple-cursors alpha ace-jump-mode switch-window undo-tree autopair nlinum helm-projectile calfw-ical calfw powerline solarized-theme company-jedi jedi-core smartrep elpy ac-php use-package popwin helm-ag go-rename go-guru go-eldoc go-direx flycheck exec-path-from-shell diminish dashboard company-go)))
